@@ -1,0 +1,6 @@
+Tests performed:
+1) Run 4 instances locally (9001–9004) with ./run_ring.sh 4 9001
+2) Propagation: message from 9002 to 9004 traverses ring (seen on 9004)
+3) Ordering: injector sends seq 2 then seq 1 from 9001 to 9003; 9003 shows seq 1 then seq 2
+Automation:
+- ./demo_test.sh performs both demos using the C++ SimpleInjector
