@@ -1,7 +1,25 @@
+# Build artifacts
 build/
-*.o
-*.obj
-*.exe
-*.log
+CMakeFiles/
+CMakeCache.txt
+Testing/
+Makefile
+cmake_install.cmake
 *.user
+*.pro.user*
+*.qbs.user
+*.qmlc
+*.jsc
+*.moc
+*.autogen/
+*.app/
+
+# Logs & backups
+*.log
+*.swp
+*~
 .DS_Store
+
+# IDE caches
+.vscode/
+.idea/
