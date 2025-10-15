@@ -16,7 +16,8 @@ add_executable(simplechat2
   src/ChatNode.h  src/ChatNode.cpp
   src/Message.h   src/Message.cpp
   src/Protocol.h  src/Protocol.cpp
-  src/VectorClock.h
+  src/VectorClock.h src/VectorClock.cpp
   src/PeerDirectory.h src/PeerDirectory.cpp
 )
+
 target_link_libraries(simplechat2 PRIVATE Qt6::Core Qt6::Gui Qt6::Widgets Qt6::Network)
